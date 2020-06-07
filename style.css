@@ -1,15 +1,57 @@
 /*
 	Global classes
 					*/
-header {
-
-}
-
 body {
-	background-image: url("images/iphoneOL.jpg");
-	background-repeat: no-repeat;
-	font-family: Avenir, sans-serif;
+  margin: 0;
 }
+
+div {
+ background-color: #145BFF;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* Right-aligned section inside the top navigation */
+/* navbar styling */
+.navbar ul {
+  background-color: #14D1FF;
+  list-style-type: none;
+  width: 100%;
+  height: 54px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #1496FF;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #7D14FF;
+  color: white;
+}
+
+.home-text {
+  text-align: center;
+  background-color: inherit;
+}
+
+
+
 
 
 
