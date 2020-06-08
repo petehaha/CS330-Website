@@ -108,6 +108,13 @@ div.project {
   flex-direction: row;
 }
 
+.contact-text {
+  padding-top: 20px;
+  font-weight: 600;
+  width: 600px;
+  text-align: left;
+}
+
 #rpi {
   background-color: white;
 }
